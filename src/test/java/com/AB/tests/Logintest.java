@@ -16,7 +16,9 @@ public class Logintest extends Basetest
 	@Test
 	public void loginpositive() 
 	{
-		System.out.println("hiiiiiiiii");
+
+		System.out.println("hiiiiiiii");
+		System.out.println("hiiiiiiii");
 		//driver.findElement(By.xpath(""));
 			
 	}
