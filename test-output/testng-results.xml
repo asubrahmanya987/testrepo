@@ -2,24 +2,32 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-26T18:48:48Z" name="Default suite" finished-at="2020-11-26T18:49:13Z" duration-ms="25920">
+  <suite started-at="2020-12-01T19:43:23Z" name="Default suite" finished-at="2020-12-01T19:45:09Z" duration-ms="105604">
     <groups>
     </groups>
-    <test started-at="2020-11-26T18:48:48Z" name="Default test" finished-at="2020-11-26T18:49:13Z" duration-ms="25920">
-      <class name="com.AB.tests.Logintest">
-        <test-method is-config="true" signature="Browser()[pri:0, instance:com.AB.tests.Logintest@1190200a]" started-at="2020-11-27T00:18:48Z" name="Browser" finished-at="2020-11-27T00:19:12Z" duration-ms="23956" status="PASS">
+    <test started-at="2020-12-01T19:43:23Z" name="Default test" finished-at="2020-12-01T19:45:09Z" duration-ms="105604">
+      <class name="com.AB.tests.Createbot">
+        <test-method is-config="true" signature="statreport()[pri:0, instance:com.AB.tests.Createbot@6f45df59]" started-at="2020-12-02T01:13:24Z" name="statreport" finished-at="2020-12-02T01:13:28Z" duration-ms="4745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- statreport -->
+        <test-method is-config="true" signature="Browser()[pri:0, instance:com.AB.tests.Createbot@6f45df59]" started-at="2020-12-02T01:13:28Z" name="Browser" finished-at="2020-12-02T01:14:01Z" duration-ms="32268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method signature="loginpositive()[pri:0, instance:com.AB.tests.Logintest@1190200a]" started-at="2020-11-27T00:19:12Z" name="loginpositive" finished-at="2020-11-27T00:19:12Z" duration-ms="42" status="PASS">
+        <test-method signature="createnewbot()[pri:0, instance:com.AB.tests.Createbot@6f45df59]" started-at="2020-12-02T01:14:01Z" name="createnewbot" finished-at="2020-12-02T01:15:06Z" duration-ms="65005" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginpositive -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.AB.tests.Logintest@1190200a]" started-at="2020-11-27T00:19:12Z" name="close" finished-at="2020-11-27T00:19:13Z" duration-ms="1781" status="PASS">
+        </test-method> <!-- createnewbot -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.AB.tests.Createbot@6f45df59]" started-at="2020-12-02T01:15:06Z" name="close" finished-at="2020-12-02T01:15:06Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- com.AB.tests.Logintest -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:com.AB.tests.Createbot@6f45df59]" started-at="2020-12-02T01:15:06Z" name="endreport" finished-at="2020-12-02T01:15:09Z" duration-ms="3291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- com.AB.tests.Createbot -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
